@@ -1,0 +1,8 @@
+# ClawHub publish ignores
+.git
+.gitignore
+.clawhubignore
+LICENSE
+node_modules/.cache
+*.log
+.DS_Store
