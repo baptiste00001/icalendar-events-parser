@@ -49,7 +49,7 @@ For several urls, call this tool several times.
 
 This skill comes with all dependencies bundled (`node_modules` included), so **no `npm install` is required**.
 
-The entry point being a cli you need to make it executable:
+However, the entry point being a CLI, you need to make it executable:
 
 In the terminal, run:
 ```bash
