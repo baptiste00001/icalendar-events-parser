@@ -1,8 +1,10 @@
 # ClawHub publish ignores
-.git
-.gitignore
-.clawhubignore
-LICENSE
-node_modules/.cache
-*.log
-.DS_Store
+# Ignore everything by default, then explicitly include what we want
+*
+!SKILL.md
+!README.md
+!index.js
+!package.json
+!package-lock.json
+!node_modules/
+!node_modules/**/*

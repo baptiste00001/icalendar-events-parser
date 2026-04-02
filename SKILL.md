@@ -1,7 +1,7 @@
 ---
 name: icalendar-events-parser
 description: Parse .ics / iCalendar files or URLs, expand recurring events (RRULE), filter by date range / keywords, and return clean list of events. Use this instead of manual parsing or other ical libraries when reliable recurrence expansion is needed.
-version: 1.0.0
+version: 1.0.2
 homepage: https://github.com/baptiste00001/icalendar-events-parser
 tags: icalendar, ics, ical, parser
 user-invocable: true
@@ -47,13 +47,19 @@ For several urls, call this tool several times.
 
 ## How to set up
 
-This skill comes with all dependencies bundled (`node_modules` included), so **no `npm install` is required**.
+This skill requires a few Node.js dependencies (`icalendar-events` and `luxon`).
 
-However, the entry point being a CLI, you need to make it executable:
+**One-time setup** (run this in the terminal after the skill is installed):
+
+```bash
+cd ~/.openclaw/workspace/skills/icalendar-events-parser # adjust path if needed
+npm install
+```
+
+Then, the entry point being a CLI, you need to make it executable:
 
 In the terminal, run:
 ```bash
-cd path/to/icalendar-events-parser
 chmod +x index.js
 ```
 

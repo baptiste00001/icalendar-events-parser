@@ -1,6 +1,6 @@
 {
   "name": "icalendar-events-parser",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "type": "module",
   "main": "index.js",
   "description": "Parse .ics / iCalendar files or URLs, expand recurring events (RRULE), filter by date range / keywords, and return clean list of events. Use this instead of manual parsing or other ical libraries when reliable recurrence expansion is needed.",

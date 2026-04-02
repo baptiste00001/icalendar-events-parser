@@ -2,13 +2,19 @@ This skill helps parse iCalendar (.ics) files, expand recurring events, and filt
 
 ## How to set up
 
-This skill comes with all dependencies bundled (`node_modules` included), so **no `npm install` is required**.
+This skill requires a few Node.js dependencies (`icalendar-events` and `luxon`).
 
-However, the entry point being a CLI, you need to make it executable after installing the skill:
+**One-time setup** (run this in the terminal after the skill is installed):
+
+```bash
+cd ~/.openclaw/workspace/skills/icalendar-events-parser # adjust path if needed
+npm install
+```
+
+Then, the entry point being a CLI, you need to make it executable:
 
 In the terminal, run:
 ```bash
-cd path/to/icalendar-events-parser
 chmod +x index.js
 ```
 
